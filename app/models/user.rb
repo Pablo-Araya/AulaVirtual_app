@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-	belongs_to :roles
+	belongs_to :role
 end

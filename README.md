@@ -9,8 +9,7 @@ Rails v.5.0.7
 * Configuration\
 Realiza un 'Fork' para descargar la API a tus repositorios \
 Ejecuta el siguiente comando para instalar las dependencias anexas al proyecto \
-`bundle install` \
-`bundle update`
+`bundle install`
 
 * System dependencies\
 --> *Faker* \
@@ -24,8 +23,8 @@ Esta API utiliza mysql2, para crear la base de datos en un entorno local, escrib
 
 * Database initialization \
 Para poblar la base de datos con data necesaria, escriba en la terminal: \
-`rake db:seed`
-
+`rake db:seed` \
+\
 Para poblar la base de datos con data dummy, escriba en la terminal: \
 `rake db:Fake_users`
 

@@ -5,11 +5,20 @@ module Api
 
 			def index
 				users = User.all
-				render json: {status:'SUCCESS', message: 'Todos los usuarios', data:users}, status: :ok
+				render json: {
+					status:'SUCCESS', 
+					message: 'Todos los usuarios', 
+					data:users
+				}, status: :ok
 			end
 
 			def create
 				# entrega vista de formulario para crear nuevo usuario
+				render json: {
+					status:'SUCCESS', 
+					message: 'Yo entregaré la vista con el formulario para crear a un Nuevo Usuario', 
+					data: ''
+				}, status: :ok
 			end
 
 			def store
@@ -20,15 +29,30 @@ module Api
 				role_id = params[:role_id]
 				username = params[:username]
 				password = params[:password]
-				# personas = Person.new(:nombre => nombre, :fecha_nacimiento => fecha, :descripcion => descrip)
-				# personas.save
-				# render json: {status: 'SUCCESS',message:'Listado de personas', data:personas}, status: :ok
-				# guarda usuario con datos de def create
+				user = User.new(
+					:nombre => nombre,
+					:lastName => lastName,
+					:gender => gender,
+					:email => email,
+					:role_id => role_id,
+					:username => username,
+					:password => password,
+					)
+				user.save
+				render json: {
+					status: 'SUCCESS', 
+					message:'Se ha ingresado nuevo Usuario', 
+					data:user
+				}, status: :ok
 			end
 
 			def show 
 				user = User.find(params[:id])
-				render json: {status:'SUCCESS', message: 'Usuario específico', data:user}, status: :ok
+				render json: {
+					status:'SUCCESS', 
+					message: 'Usuario específico', 
+					data:user
+				}, status: :ok
 			end
 
 			def edit

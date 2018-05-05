@@ -5,9 +5,9 @@ class CreateUsers < ActiveRecord::Migration[5.0]
       t.string :lastName, null: false
       t.boolean :gender, null: false
       t.string :email, null: false
-      t.integer :role_id, null: false
+      t.belongs_to :role, null: false
       t.string :username, null: false
-      t.string :passwords, null: false
+      t.string :password, null: false
       t.timestamps
     end
   end
