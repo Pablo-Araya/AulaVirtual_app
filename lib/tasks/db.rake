@@ -1,22 +1,15 @@
-require 'faker'
-
-namespace :user do
+namespace :db do
 	desc "Trunca y Crea Usuarios con Faker"
-	task :fake_users => :environment do
+	task :Fake_users => :environment do
 		
 		User.destroy_all
 		
 		#Create 15 users
 		15.times do
-			User.create do
+			User.create do |u|
 				u.nombre   = Faker::Name.first_name
 				u.lastName = Faker::Name.last_name 
-				gender     = Faker::Boolean(0.4)
-				if gender == true
-					u.gender = 'm'
-				else
-					u.gender = 'f'
-				end			
+				u.gender   = FactoryHelper::String.random(['m', 'f'])			
 				u.email    = Faker::Internet.safe_email(u.nombre)
 				u.role_id  = Faker::Number.between(1, 3)
 				u.username = Faker::Internet.user_name(u.nombre)

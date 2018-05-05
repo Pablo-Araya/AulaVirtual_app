@@ -16,6 +16,7 @@ gem 'mysql2'
 gem 'sqlite3'
 # Use Faker for Seed
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+gem 'factory-helper', '~> 1.7'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder

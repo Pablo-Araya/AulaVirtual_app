@@ -51,9 +51,11 @@ GEM
     concurrent-ruby (1.0.5)
     crass (1.0.4)
     erubis (2.7.0)
+    factory-helper (1.8.0)
+      i18n (~> 0.7)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
-    i18n (1.0.1)
+    i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     loofah (2.2.2)
       crass (~> 1.0.2)
@@ -65,7 +67,7 @@ GEM
     mini_portile2 (2.3.0)
     minitest (5.11.3)
     mysql2 (0.5.1-x86-mingw32)
-    nio4r (2.3.0)
+    nio4r (2.3.1)
     nokogiri (1.8.2-x86-mingw32)
       mini_portile2 (~> 2.3.0)
     puma (3.11.4)
@@ -122,6 +124,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  factory-helper (~> 1.7)
   faker!
   mysql2
   puma (~> 3.0)
