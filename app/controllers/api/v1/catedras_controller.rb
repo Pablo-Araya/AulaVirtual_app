@@ -1,6 +1,6 @@
 module Api
 	module V1
-		class CatedraController < ApplicationController
+		class CatedrasController < ApplicationController
 
 			def index
 				catedras = Catedra.all

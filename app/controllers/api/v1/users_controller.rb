@@ -1,7 +1,7 @@
 module Api
 	module V1
 
-		class UserController < ApplicationController
+		class UsersController < ApplicationController
 
 			def index
 				users = User.all
@@ -38,12 +38,17 @@ module Api
 					:username => username,
 					:password => password,
 					)
-				user.save
-				render json: {
-					status: 'SUCCESS', 
-					message:'Se ha ingresado nuevo Usuario', 
-					data:user
-				}, status: :ok
+				if user.save
+					render json: {
+						status: 'Success', 
+						message:'Se ha ingresado nuevo Usuario', 
+						data:user
+					}, status: :created
+				else
+					render json: {
+						:errors => user.errors.full_messages
+					}, status => 422
+				end
 			end
 
 			def show 

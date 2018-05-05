@@ -1,11 +1,15 @@
 Rails.application.routes.draw do
-	# rutas para el user resource
-	get "user", to: "user#index"
-	get "user/create", to: "user#create"
-	post "user", to: "user#store"
-	get "user/:id", to: "user#show"
-	get "user/:id/edit", to: "user#edit"
-	patch "user/:id", to: "user#update"
-	put "user/:id", to: "user#update"
-	delete "user/:id", to: "user#destroy"
+	namespace 'api' do
+		namespace 'v1' do
+			# rutas para el users resource
+			get "users", to: "users#index"
+			get "users/create", to: "users#create"
+			post "users", to: "users#store"
+			get "users/:id", to: "users#show"
+			get "users/:id/edit", to: "users#edit"
+			patch "users/:id", to: "users#update"
+			put "users/:id", to: "users#update"
+			delete "users/:id", to: "users#destroy"
+		end
+	end
 end

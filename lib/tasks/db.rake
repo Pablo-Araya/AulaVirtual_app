@@ -15,7 +15,7 @@ namespace :db do
 				user.email    = Faker::Internet.safe_email(user.nombre)
 				user.role_id  = Faker::Number.between(1, 3)
 				user.username = Faker::Internet.user_name(user.nombre)
-				user.password = Faker::Internet.password(8)
+				user.password = Faker::Internet.password()
 			user.save!
 		end
 

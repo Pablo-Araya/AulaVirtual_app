@@ -1,6 +1,6 @@
 module Api
 	module V1
-		class ClaseController < ApplicationController
+		class ClasesController < ApplicationController
 
 			def index
 				clases = Clase.where('catedra_id' => [:catedra_id])

@@ -13,7 +13,6 @@ Ejecuta el siguiente comando para instalar las dependencias anexas al proyecto \
 
 * System dependencies\
 --> *Faker* \
---> *Factory-Helper* \
 --> *MySQL2* \
 --> *yaml_db* 
 
