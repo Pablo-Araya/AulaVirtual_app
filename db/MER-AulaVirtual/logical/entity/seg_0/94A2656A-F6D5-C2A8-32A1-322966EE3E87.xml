@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94A2656A-F6D5-C2A8-32A1-322966EE3E87" name="notifications">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:30:24 UTC</createdTime>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_notification" id="A53473BC-FF84-88ED-C27D-9DC6B455A629">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:30:30 UTC</createdTime>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_clases" id="4C1431D1-A86C-55D2-07D7-F99FEB3B8DDF">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:30:43 UTC</createdTime>
+<generatorID>BE9B182C-CC8A-317E-7A0D-29D7AE59C6E4</generatorID>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<referedAttribute>0780E6C3-9807-4F34-FB4C-C1AE7F929C15</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AC2FB1E8-7FE1-277C-0D98-4EAA2ED0B929" name="notificaciones PK">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:30:35 UTC</createdTime>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A53473BC-FF84-88ED-C27D-9DC6B455A629</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

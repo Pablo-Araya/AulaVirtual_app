@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D9E6273-965D-D389-BC8D-8B5CE6AD8063" name="students">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:18:13 UTC</createdTime>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_student" id="5C5F8CB5-D606-0890-CE81-6D219ACF523E">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:18:18 UTC</createdTime>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_user" id="B00DCAAC-4843-8A3A-BB2B-26868EA098BB">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:19:04 UTC</createdTime>
+<generatorID>C458CB77-C0B7-5500-C1C6-6CCDFCE55BA7</generatorID>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<referedAttribute>F29E4126-EAC3-2FC2-3ACB-C84C4932BE10</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30727989-7A25-6305-B067-516A9FCA8880" name="alumnos PK">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:18:25 UTC</createdTime>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C5F8CB5-D606-0890-CE81-6D219ACF523E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEE71929-C6AB-AB70-7954-21DFB282EAF0" name="catedra_surveys">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:21:06 UTC</createdTime>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_survey" id="EE1407F9-9681-737A-653B-15E6DAA3D413">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:21:19 UTC</createdTime>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_catedra" id="08CE8860-1887-EC96-9E5F-14D1E0240DF4">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:23:28 UTC</createdTime>
+<generatorID>E09AD753-FC78-654E-7E6F-2A5CF87A3D75</generatorID>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<referedAttribute>5B9A3CBD-3A8E-EF30-751E-67BD1678CDF1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_student" id="76EE86F0-66CA-01A0-974D-26C9C519E497">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:24:52 UTC</createdTime>
+<generatorID>2EEF369F-6783-32E2-AC09-A8B9DFADF2C0</generatorID>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<referedAttribute>5C5F8CB5-D606-0890-CE81-6D219ACF523E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F69F2C1D-6550-3CA3-560A-7C2A29FACB16" name="catedra_surveys PK">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:21:29 UTC</createdTime>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE1407F9-9681-737A-653B-15E6DAA3D413</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

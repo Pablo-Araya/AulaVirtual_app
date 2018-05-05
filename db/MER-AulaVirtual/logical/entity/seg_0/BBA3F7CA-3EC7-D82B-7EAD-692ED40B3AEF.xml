@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBA3F7CA-3EC7-D82B-7EAD-692ED40B3AEF" name="pivot_alumnos_catedras">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:20:07 UTC</createdTime>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_student" id="9C12CB95-D691-7480-9999-45B4B2B5D0B5">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:20:30 UTC</createdTime>
+<generatorID>6775AD4C-66AB-D88F-5E4C-CFFFC4276BE8</generatorID>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<referedAttribute>5C5F8CB5-D606-0890-CE81-6D219ACF523E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_catedra" id="E27E0204-0254-C0C1-A300-3F723B28D07C">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:20:39 UTC</createdTime>
+<generatorID>C3050C16-6F0A-5FCA-544B-C9C5B1F4AE68</generatorID>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<referedAttribute>5B9A3CBD-3A8E-EF30-751E-67BD1678CDF1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="47B41DF7-BBEC-8D18-1FCD-3655D4230332" name="pivot_alumnos_catedras PK">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:20:30 UTC</createdTime>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9C12CB95-D691-7480-9999-45B4B2B5D0B5</attributeRef>
+<attributeRef>E27E0204-0254-C0C1-A300-3F723B28D07C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

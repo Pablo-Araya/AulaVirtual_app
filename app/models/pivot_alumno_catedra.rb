@@ -1,0 +1,2 @@
+class PivotAlumnoCatedra < ApplicationRecord
+end

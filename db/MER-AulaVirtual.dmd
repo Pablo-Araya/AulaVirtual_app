@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER-AulaVirtual" id="FB0E55D4-1509-83B5-D543-690E253FAF01" version="3.5">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:12:36 UTC</createdTime>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FB0E55D4-1509-83B5-D543-690E253FAF01</designId>
+</OSDM_Design>

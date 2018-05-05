@@ -1,0 +1,2 @@
+class CatedraSurvey < ApplicationRecord
+end

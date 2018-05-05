@@ -1,0 +1,1434 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"terms_",
+				"terms_file"
+			],
+			[
+				"page-sidebar-menu-lig",
+				"page-sidebar-menu-light\t default.min.css"
+			],
+			[
+				"last",
+				"lastnameMother"
+			],
+			[
+				"chek",
+				"checked"
+			],
+			[
+				"Al",
+				"Alumno"
+			],
+			[
+				"chec",
+				"checked"
+			],
+			[
+				"margin-",
+				"margin-top-10\t components-rounded.min.css"
+			],
+			[
+				"font-",
+				"font-sm\t components.css"
+			],
+			[
+				"even",
+				"events"
+			],
+			[
+				"text",
+				"text-right\t login.css"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text-c",
+				"text-center\t bootstrap.min.css"
+			],
+			[
+				"fa-address-",
+				"fa-address-book\t vendors.bundle.css"
+			],
+			[
+				"col-md-",
+				"col-md-9\t bootstrap.min.css"
+			],
+			[
+				"left",
+				"text-left\t bootstrap.min.css"
+			],
+			[
+				"cs",
+				"csrf_field"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"form-",
+				"form-group\t components-rounded.min.css"
+			],
+			[
+				"margin-top-",
+				"margin-top-30\t components-rounded.min.css"
+			],
+			[
+				"middle",
+				"media-middle\t bootstrap.min.css"
+			],
+			[
+				"font-blue-",
+				"font-blue-steel\t components-rounded.min.css"
+			],
+			[
+				"em",
+				"elmRut"
+			],
+			[
+				"elmLa",
+				"elmLastnameM"
+			],
+			[
+				"step",
+				"stepNumber"
+			],
+			[
+				"buil",
+				"builVal"
+			],
+			[
+				"num",
+				"numbVal"
+			],
+			[
+				"strt",
+				"strtVal"
+			],
+			[
+				"s",
+				"strtVal"
+			],
+			[
+				"input-",
+				"input-xsmall\t components.css"
+			],
+			[
+				"col-md-1",
+				"col-md-offset-1\t app.css"
+			],
+			[
+				"las",
+				"lastChar"
+			],
+			[
+				"arro",
+				"arrow-size"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"just",
+				"text-justify\t bootstrap.min.css"
+			],
+			[
+				"col-SM",
+				"col-sm-3\t bootstrap.min.css"
+			],
+			[
+				"large",
+				"input-large\t components-rounded.min.css"
+			],
+			[
+				"formm-",
+				"form-md-radios\t components-rounded.min.css"
+			],
+			[
+				"conn",
+				"connection_timeout"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"au",
+				"$authUser〔variable〕"
+			],
+			[
+				"end",
+				"endforeach"
+			],
+			[
+				"arra",
+				"array_slice〔function〕"
+			],
+			[
+				"func_",
+				"func_get_args"
+			],
+			[
+				"bar-cha",
+				"icon-bar-chart\t simple-line-icons.min.css"
+			],
+			[
+				"space",
+				"fc-header-space\t plugins.min.css"
+			],
+			[
+				"widget-",
+				"widget-tab\t components.css"
+			],
+			[
+				"margin-bottom-",
+				"margin-bottom-10\t components.css"
+			],
+			[
+				"coll",
+				"collapse\t bootstrap.min.css"
+			],
+			[
+				"icon-colla",
+				"glyphicon-collapse-down\t bootstrap.min.css"
+			],
+			[
+				"reloa",
+				"icon-reload\t simple-line-icons.min.css"
+			],
+			[
+				"white",
+				"font-white\t components.css"
+			],
+			[
+				"fa-bar",
+				"fa-bar-chart-o\t font-awesome.min.css"
+			],
+			[
+				"icon-grap",
+				"flaticon-graphic-2\t flaticon.min.css"
+			],
+			[
+				"porle",
+				"portlet-fit\t components.css"
+			],
+			[
+				"bg-yellow",
+				"bg-yellow-saffron\t components.css"
+			],
+			[
+				"bg-green-",
+				"bg-green-jungle\t components.css"
+			],
+			[
+				"bg-",
+				"bg-green\t components.css"
+			],
+			[
+				"badge-",
+				"badge-roundless\t components.css"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"stat",
+				"state"
+			],
+			[
+				"add",
+				"address"
+			],
+			[
+				"d",
+				"dateTime〔variable〕"
+			],
+			[
+				"fa-trash",
+				"fa-trash-o\t font-awesome.min.css"
+			],
+			[
+				"fa-pencil-",
+				"fa-pencil-square-o\t font-awesome.min.css"
+			],
+			[
+				"patient",
+				"patient.index"
+			],
+			[
+				"Pa",
+				"PatientController"
+			],
+			[
+				"pac",
+				"patient.create"
+			],
+			[
+				"pa",
+				"pacientes"
+			],
+			[
+				"font-gree",
+				"font-green-sharp\t components-rounded.min.css"
+			],
+			[
+				"paciente",
+				"paciente"
+			],
+			[
+				"wai",
+				"waitDoc"
+			],
+			[
+				"flaticon-calend",
+				"flaticon-calendar-2\t vendors.bundle.css"
+			],
+			[
+				"flaticon-calen",
+				"flaticon-calendar-1\t vendors.bundle.css"
+			],
+			[
+				"flaticon-",
+				"flaticon-notes\t vendors.bundle.css"
+			],
+			[
+				"icon-ca",
+				"icon-calendar\t simple-line-icons.min.css"
+			],
+			[
+				"icon-char",
+				"icon-pie-chart\t simple-line-icons.min.css"
+			],
+			[
+				"img",
+				"img-responsive\t bootstrap.min.css"
+			],
+			[
+				"page-footer-",
+				"page-footer-inner\t default.min.css"
+			],
+			[
+				"pointer",
+				"fa-mouse-pointer\t font-awesome.css"
+			],
+			[
+				"yellow-",
+				"yellow-haze\t components-rounded.min.css"
+			],
+			[
+				"font-yellow-",
+				"font-yellow-gold\t components-rounded.min.css"
+			],
+			[
+				"font-red",
+				"font-red-sunglo\t components-rounded.min.css"
+			],
+			[
+				"timel",
+				"timeline-icon\t components-rounded.min.css"
+			],
+			[
+				"font-gre",
+				"font-grey-salt\t components-rounded.min.css"
+			],
+			[
+				"status-",
+				"status-title"
+			],
+			[
+				"progress-bar-",
+				"progress-bar-success\t bootstrap.css"
+			],
+			[
+				"progress-",
+				"progress-bar\t bootstrap.min.css"
+			],
+			[
+				"U",
+				"UndergoingTreatment"
+			],
+			[
+				"font-green",
+				"font-green-jungle\t components-rounded.min.css"
+			],
+			[
+				"font-bl",
+				"font-blue-madison\t components-rounded.min.css"
+			],
+			[
+				"cen",
+				"dt-center\t datatables.min.css"
+			],
+			[
+				"size",
+				"glyphicon-resize-horizontal\t bootstrap.min.css"
+			],
+			[
+				"dou",
+				"double-down\t components-rounded.min.css"
+			],
+			[
+				"selec",
+				"selected\t blue.min.css"
+			],
+			[
+				"fa-am",
+				"fa-ambulance\t font-awesome.min.css"
+			],
+			[
+				"fa-ste",
+				"fa-stethoscope\t font-awesome.min.css"
+			],
+			[
+				"icon-h",
+				"icon-hourglass\t simple-line-icons.min.css"
+			],
+			[
+				"icon-",
+				"icon-calendar\t simple-line-icons.min.css"
+			],
+			[
+				"asi",
+				"asignacion"
+			],
+			[
+				"fa-hea",
+				"fa-heartbeat\t font-awesome.min.css"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"div",
+				"div\t<div>"
+			],
+			[
+				"ex",
+				"external"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"req",
+				"$request〔variable〕"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"foo",
+				"footer\t custom.css"
+			],
+			[
+				"lay",
+				"layouts.mainLayout"
+			],
+			[
+				"icon-CAL",
+				"icon-calendar\t simple-line-icons.min.css"
+			],
+			[
+				"re",
+				"repeat-y"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"fa-exp",
+				"fa-expand\t font-awesome.min.css"
+			],
+			[
+				"sc",
+				"scripts"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"m-ani",
+				"m-animate-flash\t animate-icon.min.css"
+			],
+			[
+				"dropdown-",
+				"dropdown-toggle\t bootstrap.min.css"
+			],
+			[
+				"center",
+				"text-center\t bootstrap.min.css"
+			],
+			[
+				"menu",
+				"menuLayout.blade.php"
+			],
+			[
+				"pro",
+				"profesor"
+			],
+			[
+				"A",
+				"Auth〔namespace〕"
+			],
+			[
+				"Auth",
+				"AuthenticatesUsers"
+			],
+			[
+				"con",
+				"contrase&ntilde;a"
+			],
+			[
+				"No",
+				"Notifications"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/controllers/api/v1/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: un",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"sftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"Package Control: install Pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/rubyonrails/AulaVirtual_app",
+		"/C/rubyonrails/AulaVirtual_app/app",
+		"/C/rubyonrails/AulaVirtual_app/app/models"
+	],
+	"file_history":
+	[
+		"/C/laragon/www/healthmap/resources/views/layouts/loginLayout.blade.php",
+		"/C/laragon/www/healthmap/app/PacienteIsapre.php",
+		"/C/laragon/www/healthmap/app/Paciente.php",
+		"/C/laragon/www/healthmap/app/EventoAgenda.php",
+		"/C/laragon/www/healthmap/app/Http/Controllers/EventoController.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_04_01_210043_create_evento_agendas_table.php",
+		"/C/laragon/www/healthmap/public/assets/pages/paciente/scripts/form-validator.js",
+		"/C/laragon/www/healthmap/public/assets/pages/paciente/scripts/form-validator.min.js",
+		"/C/laragon/www/healthmap/node_modules/fullcalendar/dist/fullcalendar.js",
+		"/C/laragon/www/healthmap/vendor/maddhatter/laravel-fullcalendar/src/MaddHatter/LaravelFullcalendar/Calendar.php",
+		"/C/laragon/www/healthmap/public/assets/plugins/fullcalendar/gcal.js",
+		"/C/laragon/www/healthmap/public/assets/plugins/fullcalendar/locale-all.js",
+		"/C/laragon/www/healthmap/webpack.mix.js",
+		"/C/laragon/www/healthmap/resources/views/layouts/mainLayout.blade.php",
+		"/C/laragon/www/healthmap/public/assets/layout/css/icons&fonts.min.css",
+		"/C/laragon/www/healthmap/public/assets/layout/css/loadFonts.min.css",
+		"/C/laragon/www/healthmap/public/develop/css/layout/themes/custom.min.css",
+		"/C/laragon/www/healthmap/public/develop/css/layout/themes/custom.css",
+		"/C/laragon/www/healthmap/public/assets/layout/css/all.min.css",
+		"/C/laragon/www/healthmap/public/assets/global/css/all.min.css",
+		"/C/laragon/www/healthmap/public/develop/css/layout/loadFonts.css",
+		"/C/laragon/www/healthmap/public/develop/css/layout/layout.css",
+		"/C/laragon/www/healthmap/public/develop/css/layout/allIcons.min.css",
+		"/C/laragon/www/healthmap/public/develop/css/global/plugins.min.css",
+		"/C/laragon/www/healthmap/public/develop/css/global/components-rounded.min.css",
+		"/C/laragon/www/healthmap/public/develop/css/global/components.css",
+		"/C/laragon/www/healthmap/public/develop/css/global/animated.min.css",
+		"/C/laragon/www/healthmap/public/assets/layout/css/loadFonts.css",
+		"/C/laragon/www/healthmap/routes/web.php",
+		"/C/laragon/www/healthmap/public/assets/layout/css/layout.min.css",
+		"/C/laragon/www/healthmap/public/assets/layout/css/layout.css",
+		"/C/laragon/www/healthmap/public/assets/layout/css/themes/custom.css",
+		"/C/laragon/www/healthmap/public/assets/layout/css/themes/custom.min.css",
+		"/C/laragon/www/healthmap/resources/views/nav/footer.blade.php",
+		"/C/laragon/www/healthmap/resources/views/nav/menu.blade.php",
+		"/C/laragon/www/healthmap/public/assets/global/css/animated.css",
+		"/C/laragon/www/healthmap/public/assets/global/css/animated.min.css",
+		"/C/laragon/Templates/METRONIC Pack v4.7/metronic_v4.7.5/theme/assets/layouts/layout/css/themes/default.css",
+		"/C/laragon/Templates/METRONIC Pack v4.7/metronic_v4.7.5/theme/assets/layouts/layout3/css/themes/default.css",
+		"/C/laragon/Templates/METRONIC Pack v4.7/metronic_v4.7.5/theme/assets/layouts/layout3/css/layout.css",
+		"/C/laragon/Templates/METRONIC Pack v4.7/metronic_v4.7.5/theme/assets/layouts/layout3/css/custom.css",
+		"/C/laragon/Templates/METRONIC Pack v4.7/metronic_v4.7.5/theme/assets/layouts/layout3/css/themes/blue-hoki.css",
+		"/C/laragon/Templates/METRONIC Pack v4.7/metronic_v4.7.5/theme/assets/layouts/layout3/css/themes/blue-steel.css",
+		"/C/laragon/www/healthmap/public/assets/plugins/select2/js/select2.full.js",
+		"/C/laragon/www/healthmap/public/assets/pages/paciente/scripts/form-input-mask.js",
+		"/C/laragon/www/healthmap/public/assets/pages/paciente/scripts/form-wizard-arrows.js",
+		"/C/Users/Pablo/Desktop/jquery-3.3.1.js",
+		"/C/Users/Pablo/Desktop/fullcalendar-3.9.0/lib/jquery.min.js",
+		"/C/Users/Pablo/Desktop/fullcalendar-3.9.0/lib/jquery-ui.min.js",
+		"/C/Users/Pablo/Desktop/fullcalendar-3.9.0/demos/agenda-views.html",
+		"/C/Users/Pablo/Desktop/fullcalendar-3.9.0/locale/es.js",
+		"/C/Users/Pablo/Desktop/fullcalendar-3.9.0/locale/ar.js",
+		"/C/Users/Pablo/Desktop/moment-with-locales.js",
+		"/C/Users/Pablo/Desktop/moment.js",
+		"/C/laragon/www/index.php",
+		"/C/laragon/www/healthmap/app/Prestacion.php",
+		"/C/laragon/www/healthmap/public/assets/pages/paciente/scripts/form-dropdown.js",
+		"/C/laragon/www/healthmap/app/Http/Controllers/AjaxController.php",
+		"/C/laragon/www/healthmap/public/assets/pages/paciente/scripts/form-dropdown.min.js",
+		"/C/laragon/www/healthmap/public/assets/pages/paciente/scripts/form-input-mask.min.js",
+		"/C/laragon/www/healthmap/public/assets/pages/paciente/scripts/form-event-type.js",
+		"/C/laragon/www/healthmap/public/assets/pages/paciente/scripts/form-event-subtype.js",
+		"/C/laragon/www/healthmap/public/assets/pages/paciente/scripts/form-odontologo.js",
+		"/C/laragon/www/healthmap/public/assets/pages/paciente/scripts/form-select2.js",
+		"/C/laragon/www/healthmap/resources/assets/sass/paciente/createStepThree.scss",
+		"/C/laragon/www/healthmap/app/Catedra.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_01_11_170358_create_odontologos_table.php",
+		"/C/laragon/www/healthmap/app/Http/Controllers/PacienteController.php",
+		"/C/laragon/www/healthmap/public/assets/pages/paciente/scripts/form-select2.min.js",
+		"/C/laragon/www/healthmap/public/assets/plugins/bootstrap-toggle/bootstrap-toggle.css",
+		"/C/laragon/www/healthmap/app/Odontologo.php",
+		"/C/laragon/www/healthmap/app/User.php",
+		"/C/laragon/www/healthmap/config/app.php",
+		"/C/laragon/www/healthmap/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/C/laragon/www/healthmap/database/seeds/UsersTableSeeder.php",
+		"/C/laragon/www/healthmap/public/assets/plugins/select2/css/select2-bootstrap.min.css",
+		"/C/laragon/www/healthmap/public/assets/plugins/select2/css/select2.css",
+		"/C/laragon/www/healthmap/vendor/fzaninotto/faker/src/Faker/Provider/DateTime.php",
+		"/C/laragon/www/healthmap/app/Traits/EventoAgendaTrait.php",
+		"/C/laragon/www/healthmap/resources/views/agenda/mycalender.blade.php",
+		"/C/laragon/www/healthmap/app/Http/Controllers/EventoAgendaController.php",
+		"/C/laragon/www/healthmap/app/Http/Requests/CreatePacienteRequest.php",
+		"/C/laragon/www/healthmap/database/seeds/DatabaseSeeder.php",
+		"/C/laragon/www/healthmap/database/seeds/PrestacionesTableSeeder.php",
+		"/C/laragon/www/healthmap/database/migrations/2017_10_03_061008_create_pacientes_table.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_01_11_163031_create_prestaciones_table.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_01_11_170435_create_catedras_table.php",
+		"/C/laragon/www/healthmap/database/seeds/CatedrasTableSeeder.php",
+		"/C/laragon/www/healthmap/database/seeds/ComunasTableSeeder.php",
+		"/C/laragon/www/healthmap/database/factories/PacienteFactory.php",
+		"/C/laragon/www/healthmap/database/seeds/DummyEventoAgendasTableSeeder.php",
+		"/C/laragon/www/healthmap/app/Http/Controllers/AddressController.php",
+		"/C/laragon/www/healthmap/app/PacienteProvincia.php",
+		"/C/laragon/www/healthmap/app/PacienteComuna.php",
+		"/C/laragon/www/healthmap/app/PacienteRegion.php",
+		"/C/laragon/www/healthmap/database/factories/UserFactory.php",
+		"/C/laragon/www/healthmap/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_04_22_025517_create_consentimientos_table.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_04_11_163928_create_pivot_isapres_pacientes_table.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_04_11_164112_create_pivot_alergias_pacientes_table.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_04_09_031755_create_paciente_provincias_table.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_04_08_143339_create_pivot_horarios_odontologos_table.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_04_01_152304_create_paciente_regiones_table.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_03_26_114616_create_pivot_catedras_docentes_table.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_01_11_172426_create_pivot_catedras_odontologos_table.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_01_11_170419_create_requests_table.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_01_11_163119_create_eventos_table.php",
+		"/C/laragon/www/healthmap/app/PivotHorarioOdontologo.php",
+		"/C/laragon/www/healthmap/app/PacienteAlergia.php",
+		"/C/laragon/www/healthmap/app/PivotAsignaturaOdontologo.php",
+		"/C/laragon/www/healthmap/app/Horario.php",
+		"/C/laragon/www/healthmap/app/Evento.php",
+		"/C/laragon/www/healthmap/app/EventoEstado.php",
+		"/C/laragon/www/healthmap/app/PivotCatedraDocente.php",
+		"/C/laragon/www/healthmap/app/Docente.php",
+		"/C/laragon/www/healthmap/app/Consentimiento.php",
+		"/C/laragon/www/healthmap/app/PacientePais.php",
+		"/C/laragon/www/healthmap/app/Ficha.php",
+		"/C/laragon/www/healthmap/database/seeds/ProvinciasTableSeeder.php",
+		"/C/laragon/www/healthmap/database/seeds/RegionesTableSeeder.php",
+		"/C/laragon/www/healthmap/database/seeds/PaisesTableSeeder.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_01_11_170456_create_docentes_table.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_04_01_152048_create_paciente_comunas_table.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_04_01_151322_create_paciente_paises_table.php",
+		"/C/laragon/www/healthmap/database/migrations/2018_04_01_151322_create_paises_table.php",
+		"/C/laragon/www/healthmap/vendor/laravel/framework/src/Illuminate/Auth/Notifications/ResetPassword.php",
+		"/C/laragon/www/healthmap/app/Notifications/ResetPasswordNotification.php",
+		"/C/laragon/www/healthmap/vendor/laravel/framework/src/Illuminate/Notifications/Notification.php"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 179.0,
+		"where_history":
+		[
+			"C:\\laragon\\www\\healthmap\\resources\\views\\",
+			"C:\\laragon\\www\\healthmap\\",
+			"C:\\laragon\\www\\healthmap\\public\\assets\\",
+			"C:\\laragon\\www\\healthmap\\",
+			"C:\\laragon\\www\\healthmap\\public\\assets",
+			"C:\\laragon\\www\\healthmap\\",
+			"C:\\laragon\\www\\healthmap\\public",
+			"C:\\laragon\\www\\healthmap\\app\\Http\\Controllers",
+			"C:\\laragon\\www\\healthmap\\",
+			"C:\\laragon\\www\\healthmap\\public",
+			"C:\\laragon\\www\\healthmap\\resources\\lang\\es",
+			"\\resources\\lang\\es",
+			"resources\\lang\\es",
+			"C:\\laragon\\www\\healthmap\\resources\\lang\\es",
+			"",
+			"resources\\lang\\es",
+			"\\resources\\lang\\es",
+			"",
+			"public/assets"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"slug",
+			"url",
+			"\\",
+			"border-left",
+			"hand",
+			"cursor",
+			"pointer",
+			"4191dc",
+			"404c57",
+			"495663",
+			"282a3a",
+			"282a3",
+			"464a64",
+			"36c6d3",
+			".page-sidebar-menu",
+			".page-sidebar-menu .",
+			".page-sidebar-menu.",
+			".page-sidebar-menu.page-sidebar-menu-light",
+			".page-sidebar-menu.page-sidebar-menu-light > li.active.open > a",
+			".page-sidebar .page-sidebar-menu.page-sidebar-menu-light > li.active.open > a",
+			".page-sidebar",
+			"border-left",
+			"active",
+			"border-left: 4px solid",
+			"border-left:",
+			"page-sidebar-menu-light",
+			"li.active > a",
+			"page-sidebar-menu-light",
+			"4191dc",
+			"url",
+			"44515d",
+			"0d467c",
+			"sidebar",
+			"0d467c",
+			"page-sidebar",
+			"tel_relation",
+			");\n",
+			"evtDiag_odon",
+			"evtUrge_odon",
+			"Comuna",
+			"comuna",
+			"require-pair",
+			"extra",
+			"evtDiag_odon",
+			".evtDiag_odon",
+			"extra",
+			"help-block\"",
+			"help-block",
+			"required",
+			"AddressController",
+			"Diag",
+			"Urge",
+			"btn-toggle",
+			".btn-toggle",
+			"10:30",
+			"Diag",
+			"require",
+			"docente",
+			"alumno",
+			"stepThreeDiag",
+			"swch-evtDiag-first",
+			"swc-eve",
+			"first",
+			"select2-results__group",
+			"'",
+			"Total",
+			"PE-",
+			"Convenciona",
+			"'catedra_id'",
+			"create([\n\t\t\t",
+			"Catedra",
+			"PE",
+			"Comuna",
+			"Pais",
+			"PacientePais",
+			"\"",
+			"9999999",
+			"ó",
+			"asignatu",
+			"asignaturas",
+			"pais",
+			"region",
+			"provincia",
+			"phone",
+			"#address_building",
+			"subtratamientos",
+			"6",
+			"alumno",
+			"self",
+			"name",
+			"subpair",
+			"require-if-subevent-active",
+			"-active",
+			"yes",
+			"radio",
+			"0e9577",
+			"radio",
+			"-first",
+			"no_evtDiag",
+			"yes_evtDiag-first",
+			"first",
+			"006699",
+			"choice_radio",
+			"label",
+			"9",
+			"' style='line-height:35px",
+			"0",
+			".",
+			"5",
+			">\n",
+			"                                <",
+			"dentalicons2-",
+			"dentalicons2",
+			"\"}",
+			"37",
+			"dental-dentalia",
+			"dental-dentalia-",
+			"7",
+			"fonts",
+			"switch",
+			"On",
+			"Off",
+			"-3",
+			"3",
+			"5",
+			"6",
+			"4",
+			"25"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'catedra_id'\t=> '',\t\t\t",
+			"'catedra_id'\t=> '',\n\t\t\t",
+			"create([\n\t\t\t'catedra_id'\n\t\t\t",
+			"create([\n\t\t\t'catedra_id'",
+			"paciente_pais",
+			"paciente_region",
+			"paciente_provincia",
+			"dentalicons-",
+			"dentalicons",
+			"dentalcions",
+			"fonts",
+			"5cb85c",
+			"Helper::",
+			"fas fa-plus",
+			"",
+			"help-block with-errors",
+			"Isapre",
+			"'",
+			"&#39;",
+			"&uacute;",
+			"&oacute;",
+			"&eacute;",
+			"'provincia_id'\t=>",
+			"',\n\t\t]);\n\n\t\t",
+			"',\n\t\t]);\n\t\t",
+			"',\n\t\t]);\n",
+			"',\n\t\t\t'name'\t\t\t=> '",
+			"&iacute;",
+			"&Uacute;",
+			"&Ntilde;",
+			"&eacute;",
+			"&aacute;",
+			"&oacute;",
+			"&ntilde;",
+			"&iacute;",
+			"&eacute;",
+			"&aacute;",
+			"&aacute;\n",
+			",\n\t\t\t'region_id'\t\t=> '15',\n\t\t]);\n",
+			",\n\t\t\t'region_id'\t\t=> '14',\n\t\t]);\n",
+			",\n\t\t\t'region_id'\t\t=> '13',\n\t\t]);\n",
+			",\n\t\t\t'region_id'\t\t=> '12',\n\t\t]);\n",
+			",\n\t\t\t'region_id'\t\t=> '11',\n\t\t]);\n",
+			",\n\t\t\t'region_id'\t\t=> '10',\n\t\t]);\n",
+			",\n\t\t\t'region_id'\t\t=> '9',\n\t\t]);\n",
+			",\n\t\t\t'region_id'\t\t=> '8',\n\t\t]);\n",
+			",\n\t\t\t'region_id'\t\t=> '7',\n\t\t]);\n",
+			",\n\t\t\t'region_id'\t\t=> '6',\n\t\t]);\n",
+			",\n\t\t\t'region_id'\t\t=> '5',\n\t\t]);\n",
+			",\n\t\t\t'region_id'\t\t=> '4',\n\t\t]);\n",
+			",\n\t\t\t'region_id'\t\t=> '3',\n\t\t]);\n",
+			"provincia_id",
+			",\n\t\t\t'region_id'\t\t=> '2',\n\t\t]);\n",
+			",\n\t\t\t'region_id'\t\t=> '1',\n\t\t]);\n",
+			"\t\tProvincia::create([\n\t\t\t'name'\t\t=> ",
+			"&iacute;",
+			"&aacute;",
+			"&ntilde;",
+			"&Ntilde;",
+			"&Aacute;",
+			"&aacute;",
+			",\n\t\t\t'",
+			"'region_id'\t\t=> '45',\n\t\t]);\n",
+			"'region_id'\t\t=> '44',\n\t\t]);\n",
+			"'region_id'\t\t=> '43',\n\t\t]);\n",
+			"'region_id'\t\t=> '42',\n\t\t]);\n",
+			"'region_id'\t\t=> '41',\n\t\t]);\n",
+			"'region_id'\t\t=> '40',\n\t\t]);\n",
+			"'region_id'\t\t=> '39',\n\t\t]);\n",
+			"'region_id'\t\t=> '38',\n\t\t]);\n",
+			"'region_id'\t\t=> '37',\n\t\t]);\n",
+			"'region_id'\t\t=> '36',\n\t\t]);\n",
+			"'region_id'\t\t=> '35',\n\t\t]);\n",
+			"'region_id'\t\t=> '34',\n\t\t]);\n",
+			"'region_id'\t\t=> '33',\n\t\t]);\n",
+			"'region_id'\t\t=> '32',\n\t\t]);\n",
+			"'region_id'\t\t=> '31',\n\t\t]);\n",
+			"'region_id'\t\t=> '30',\n\t\t]);\n",
+			"'region_id'\t\t=> '29',\n\t\t]);\n",
+			"'region_id'\t\t=> '28',\n\t\t]);\n",
+			"'region_id'\t\t=> '27',\n\t\t]);\n",
+			"'region_id'\t\t=> '46',\n\t\t]);\n",
+			"'region_id'\t\t=> '47',\n\t\t]);\n",
+			"'region_id'\t\t=> '48',\n\t\t]);\n",
+			"'region_id'\t\t=> '49',\n\t\t]);\n",
+			"'region_id'\t\t=> '50',\n\t\t]);\n",
+			"'region_id'\t\t=> '51',\n\t\t]);\n",
+			"'region_id'\t\t=> '52',\n\t\t]);\n",
+			"'region_id'\t\t=> '53',\n\t\t]);\n",
+			"'region_id'\t\t=> '26',\n\t\t]);\n",
+			"'region_id'\t\t=> '25',\n\t\t]);\n",
+			"'region_id'\t\t=> '24',\n\t\t]);\n",
+			"'region_id'\t\t=> '24\n",
+			"'region_id'\t\t=> '23',\n\t\t]);\n",
+			"'region_id'\t\t=> '22',\n\t\t]);\n",
+			"'region_id'\t\t=> '21',\n\t\t]);\n",
+			"'region_id'\t\t=> '20',\n\t\t]);\n",
+			"'region_id'\t\t=> '19',\n\t\t]);\n",
+			"'region_id'\t\t=> '18',\n\t\t]);\n",
+			"'region_id'\t\t=> '17',\n\t\t]);\n",
+			"'region_id'\t\t=> '16',\n\t\t]);\n",
+			"'region_id'\t\t=> '15',\n\t\t]);\n",
+			"'region_id'\t\t=> '14',\n\t\t]);\n",
+			"'region_id'\t\t=> '13',\n\t\t]);\n",
+			"'region_id'\t\t=> '12',\n\t\t]);\n",
+			"'region_id'\t\t=> '11',\n\t\t]);\n",
+			"'region_id'\t\t=> '10',\n\t\t]);\n",
+			"'region_id'\t\t=> '9',\n\t\t]);\n",
+			"'region_id'\t\t=> '8',\n\t\t]);\n",
+			"'region_id'\t\t=> '7',\n\t\t]);\n",
+			"'region_id'\t\t=> '6',\n\t\t]);\n",
+			"'region_id'\t\t=> '5',\n\t\t]);\n",
+			"'region_id'\t\t=> '4',\n\t\t]);\n",
+			"'region_id'\t\t=> '3',\n\t\t]);\n",
+			"'region_id'\t\t=> '2',\n\t\t]);\n",
+			"'region_id'\t\t=> '1',\n\t\t]);\n",
+			"\t\tComuna::create([\n\t\t\t'name' \t\t    => ",
+			"view('estadisticas.state",
+			"route('estadisticas.state",
+			"route('pacientes.",
+			"view('pacientes.",
+			"route('pacientes.",
+			"",
+			"tab_pending_treatment",
+			"tab_pending_diagnostic",
+			"tab_treatment",
+			"",
+			"Role"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/api/v1/users_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 76.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 120.0
+	},
+	"output.exec":
+	{
+		"height": 138.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 180.0
+	},
+	"pinned_build_system": "",
+	"project": "sublime_project.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"classloader.php",
+				"healthmap\\vendor\\composer\\ClassLoader.php"
+			],
+			[
+				"sendspasswordresetemails",
+				"healthmap\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Auth\\SendsPasswordResetEmails.php"
+			],
+			[
+				"resetpasswords",
+				"healthmap\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Auth\\ResetsPasswords.php"
+			],
+			[
+				"resetpass",
+				"healthmap\\app\\Http\\Controllers\\Auth\\ResetPasswordController.php"
+			],
+			[
+				"",
+				"healthmap\\app\\Ficha.php"
+			],
+			[
+				"hasone",
+				"healthmap\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Relations\\HasOne.php"
+			],
+			[
+				"resetspasswords",
+				"healthmap\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Auth\\ResetsPasswords.php"
+			],
+			[
+				"registersusers",
+				"healthmap\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Auth\\RegistersUsers.php"
+			],
+			[
+				"request",
+				"healthmap\\app\\Request.php"
+			],
+			[
+				"illuminate/rou",
+				"healthmap\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php"
+			],
+			[
+				"authenticatesuser",
+				"memphis\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Auth\\AuthenticatesUsers.php"
+			],
+			[
+				"email",
+				"healthmap\\resources\\views\\vendor\\notifications\\email.blade.php"
+			],
+			[
+				"canrese",
+				"healthmap\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Passwords\\CanResetPassword.php"
+			],
+			[
+				"passwo",
+				"healthmap\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Passwords\\PasswordBroker.php"
+			],
+			[
+				"illuminate/foundation/auth/user",
+				"healthmap\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Auth\\User.php"
+			],
+			[
+				"user",
+				"healthmap\\app\\User.php"
+			],
+			[
+				"rese",
+				"C:\\laragon\\www\\healthmap\\app\\Notifications\\ResetPassword.php"
+			],
+			[
+				"databaseto",
+				"healthmap\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Passwords\\DatabaseTokenRepository.php"
+			],
+			[
+				"illuminate/ro",
+				"healthmap\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php"
+			],
+			[
+				"illuminate/router",
+				"healthmap\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 371.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

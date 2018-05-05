@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8B8B5219-0B2C-E305-74A6-6AA6912E5265" mainViewID="F7716FB6-8474-A48F-370E-94A4B2A25FCC">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-04-27 00:12:36 UTC</createdTime>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
