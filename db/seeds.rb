@@ -7,6 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 Role.destroy_all
 
+puts "Se borraron los #{Role.count} datos de la tabla roles"
+
 Role.create!([{
 		key: 'admin'
 	},
