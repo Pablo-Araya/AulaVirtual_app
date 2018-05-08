@@ -14,7 +14,8 @@ Ejecuta el siguiente comando para instalar las dependencias anexas al proyecto \
 * System dependencies\
 --> *Faker* \
 --> *MySQL2* \
---> *yaml_db* 
+--> *yaml_db* \
+--> *validates*\
 
 * Database creation \
 Esta API utiliza mysql2, para crear la base de datos en un entorno local, escriba en la terminal \

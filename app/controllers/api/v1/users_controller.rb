@@ -1,19 +1,7 @@
 module Api
 	module V1
-
 		class UsersController < ApplicationController
-			require 'bcrypt'
-
-			@user = User.new(params[:user].permit(:nombre,:lastName,:gender,:email,:role_id,:username,:password))
-
-			validates :nombre, presence: true, lenght: { in: 2..100 }
-			validates :lastName, presence: true, lenght: { in: 2..100 }
-			validates :gender, presence: true, lenght: { is: 1 }
-			validates :email, presence: true, uniqueness: true, with: /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
-			validates :role_id, presence: true, lenght: { is: 1 }, numericality: { only_integer: true }, in: 1..3
-			validates :username, presence: true, lenght: { in: 4..15 }, uniqueness: true
-			validates :password, presence: true, lenght: { in: 8..10 }
-			
+						
 			def index
 				users = User.all
 				render json: {
@@ -24,48 +12,26 @@ module Api
 			end
 
 			def create
-				# entrega vista de formulario para crear nuevo usuario
-				render json: {
-					status:'SUCCESS', 
-					message: 'Yo entregaré la vista con el formulario para crear a un Nuevo Usuario', 
-					data: ''
-				}, status: :ok
-			end
-
-			def store
-				nombre = params[:nombre]
-				lastName = params[:lastName]
-				gender = params[:gender]
-				email = params[:email]
-				role_id = params[:role_id]
-				username = params[:username]
-				password = BCrypt::Password.create(params[:password])
-				user = User.new(
-					:nombre => nombre,
-					:lastName => lastName,
-					:gender => gender,
-					:email => email,
-					:role_id => role_id,
-					:username => username,
-					:password => password,
-					)
+				user = User.new(user_params)
 
 				if user.save
-					render status: 200, json: {
-						status: 'Success', 
-						message:'Se ha ingresado nuevo Usuario', 
+					render json: {
+						status: 'SUCCESS', 
+						message: 'Se ha ingresado nuevo Usuario', 
 						data:user
-					}
+					}, status: :ok
 				else
 					render json: {
-						:errors => user.errors.full_messages
-					}, status => 400					
+						status: 'ERROR',
+						message: 'Usuario no Guardado',
+						data: user.errors
+					}, status: :unprocessable_entity					
 				end
 
 			end
 
 			def show 
-				user = User.find(params[:id])
+				user = User.find(params[:id]) 
 				render json: {
 					status:'SUCCESS', 
 					message: 'Usuario específico', 
@@ -73,16 +39,37 @@ module Api
 				}, status: :ok
 			end
 
-			def edit
-				# entrega vista de formulario para editar un usuario
-			end
-
 			def update
-				# guarda cambios de datos de usuario de def edit
+				user = User.find(params[:id])
+				if user.update_attributes(user_params)
+					render json: {
+						status: 'SUCCESS', 
+						message: 'Se ha actualizado Usuario', 
+						data:user
+					}, status: :ok
+				else
+					render json: {
+						status: 'ERROR',
+						message: 'Usuario no Actuaizado',
+						data: user.errors.full_messages
+					}, status: :unprocessable_entity
+				end
 			end
 
 			def destroy
+				user = User.find(params[:id])
+    			user.destroy
+    			render json: {
+					status: 'SUCCESS', 
+					message:'Se ha eliminado Usuario', 
+					data:user
+				}, status: :ok
 			end
+
+			private
+				def user_params
+					params.permit(:nombre,:lastName,:gender,:email,:role_id,:username,:password)
+				end
 			
 		end
 
