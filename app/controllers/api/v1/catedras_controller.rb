@@ -3,31 +3,88 @@ module Api
 		class CatedrasController < ApplicationController
 
 			def index
-				catedras = Catedra.all
+				catedras = Catedra.where(:category_id => params[:category_id]).all
+				if catedras.any?
+					render json: {
+						status:'SUCCESS', 
+						message: 'Todas las Cátedras de la categoría ' + params[:category_id], 
+						data: catedras
+					}, status: :ok
+				else
+					render json: {
+						status: 'ERROR',
+						message: 'No existen Cátedras en la Categoría ' + params[:category_id],
+						data: catedras
+					}, status: :unprocessable_entity
+				end
 			end
 
 			def create
-				# entrega vista de formulario para crear nueva Catedra
-			end
+				catedra = Catedra.new(catedra_params)
 
-			def store
-				# guarda Catedra con datos de def create
+				if catedra.save
+					render json: {
+						status: 'SUCCESS', 
+						message: 'Se ha ingresado nueva Cátedra a la categoría ' + params[:category_id], 
+						data: catedra
+					}, status: :ok
+				else
+					render json: {
+						status: 'ERROR',
+						message: 'Cátedra no Guardada',
+						data: catedra.errors
+					}, status: :unprocessable_entity					
+				end
 			end
 
 			def show 
-				catedra = Catedra.find(params[:id])
-			end
-
-			def edit
-				# entrega vista de formulario para editar una Catedra
+				catedra = Catedra.find(params[:id]) 
+				render json: {
+					status:'SUCCESS', 
+					message: 'Cátedra específica de categoría ' + catedra.category_id.to_s, 
+					data: catedra
+				}, status: :ok
 			end
 
 			def update
-				# guarda cambios de datos de Catedra de def edit
+				catedra = Catedra.find(params[:id])
+				if catedra.update_attributes(catedra_params)
+					render json: {
+						status: 'SUCCESS', 
+						message: 'Se ha actualizado Cátedra de la categoría ' + catedra.category_id.to_s, 
+						data: catedra
+					}, status: :ok
+				else
+					render json: {
+						status: 'ERROR',
+						message: 'Cátedra no Actualizada',
+						data: catedra.errors
+					}, status: :unprocessable_entity
+				end
 			end
 
 			def destroy
+				catedra = Catedra.find(params[:id])
+    			if catedra.destroy
+	    			render json: {
+						status: 'SUCCESS', 
+						message:'Se ha eliminado la Cátedra de la categoría ' + catedra.category_id.to_s, 
+						data: catedra
+					}, status: :ok
+				else
+	    			render json: {
+						status: 'ERROR', 
+						message:'No se pudo eliminar la Cátedra', 
+						data: catedra.errors
+					}, status: :unprocessable_entity
+				end
 			end
+
+			private
+				def catedra_params
+					params.permit(:category_id, :teacher_id, :title, :description)
+				end	
+
 
 		end
 	end

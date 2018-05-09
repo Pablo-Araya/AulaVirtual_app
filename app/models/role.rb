@@ -1,3 +1,5 @@
 class Role < ApplicationRecord
-	has_many :user
+	# Model associations
+	has_many :user, foreign_key: :role_id
+
 end

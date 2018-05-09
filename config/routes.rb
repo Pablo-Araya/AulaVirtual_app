@@ -1,17 +1,30 @@
 Rails.application.routes.draw do
 	namespace 'api' do
 		namespace 'v1' do
-			# rutas para el users resource
-			resources :users
 
-			# get "users", to: "users#index"
-			# get "users/create", to: "users#create"
-			# post "users", to: "users#store"
-			# get "users/:id", to: "users#show"
-			# get "users/:id/edit", to: "users#edit"
-			# patch "users/:id", to: "users#update"
-			# put "users/:id", to: "users#update"
-			# delete "users/:id", to: "users#destroy"
+			resources :users do
+				get "cursos", to: "cursos#index"
+				post "cursos", to: "cursos#create"
+				delete "cursos/:id", to: "cursos#destroy"
+			end
+
+			resources :categories do
+
+				resources :catedras do
+
+					resources :catedra_surveys
+					get "avg", to: "catedra_surveys#avg"
+
+					resources :clases do
+
+						resources :notifications						
+
+					end
+
+				end				
+
+			end
+
 		end
 	end
 end

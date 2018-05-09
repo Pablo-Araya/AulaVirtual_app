@@ -18,7 +18,7 @@ namespace :db do
 				user.email    = Faker::Internet.safe_email(user.nombre)
 				user.role_id  = 1
 				user.username = Faker::Internet.user_name(user.nombre)
-				user.password = Faker::Internet.password()
+				user.password = Faker::Internet.password(8, 10, true, true)
 			user.save!
 		end
 
@@ -31,7 +31,7 @@ namespace :db do
 				user.email    = Faker::Internet.safe_email(user.nombre)
 				user.role_id  = 2
 				user.username = Faker::Internet.user_name(user.nombre)
-				user.password = Faker::Internet.password()
+				user.password = Faker::Internet.password(8, 10, true, true)
 			user.save!
 
 			i = User.where(:role_id => user.role_id).last
@@ -49,7 +49,7 @@ namespace :db do
 				user.email    = Faker::Internet.safe_email(user.nombre)
 				user.role_id  = 3
 				user.username = Faker::Internet.user_name(user.nombre)
-				user.password = Faker::Internet.password()
+				user.password = Faker::Internet.password(8, 10, true, true)
 			user.save!
 
 			i = User.where(:role_id => user.role_id).last

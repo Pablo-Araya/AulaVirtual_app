@@ -7,7 +7,7 @@ module Api
 				render json: {
 					status:'SUCCESS', 
 					message: 'Todos los usuarios', 
-					data:users
+					data: users
 				}, status: :ok
 			end
 
@@ -15,10 +15,25 @@ module Api
 				user = User.new(user_params)
 
 				if user.save
+					role = user.role_id
+					if role == 2
+						foreign = Teacher.new(:user_id => user.id)
+						foreign.save
+					elsif role == 3
+						foreign = Student.new(:user_id => user.id)
+						foreign.save
+					else
+						user.destroy
+						render json: {
+							status: 'ERROR',
+							message: 'No puede crear un usuario con otro rol'
+						}, status: :unprocessable_entity
+						return false	
+					end
 					render json: {
 						status: 'SUCCESS', 
 						message: 'Se ha ingresado nuevo Usuario', 
-						data:user
+						data: [user, foreign]
 					}, status: :ok
 				else
 					render json: {
@@ -27,7 +42,6 @@ module Api
 						data: user.errors
 					}, status: :unprocessable_entity					
 				end
-
 			end
 
 			def show 
@@ -35,7 +49,7 @@ module Api
 				render json: {
 					status:'SUCCESS', 
 					message: 'Usuario específico', 
-					data:user
+					data: user
 				}, status: :ok
 			end
 
@@ -45,33 +59,42 @@ module Api
 					render json: {
 						status: 'SUCCESS', 
 						message: 'Se ha actualizado Usuario', 
-						data:user
+						data: user
 					}, status: :ok
 				else
 					render json: {
 						status: 'ERROR',
 						message: 'Usuario no Actuaizado',
-						data: user.errors.full_messages
+						data: user.errors
 					}, status: :unprocessable_entity
 				end
 			end
 
 			def destroy
 				user = User.find(params[:id])
+				role = user.role_id
+				if role == 2
+					foreign = Teacher.where(:user_id => user.id).first
+					foreign.destroy
+				else
+					foreign = Student.where(:user_id => user.id).first
+					if !foreign.nil?
+						foreign.destroy
+					end
+				end
     			user.destroy
     			render json: {
 					status: 'SUCCESS', 
 					message:'Se ha eliminado Usuario', 
-					data:user
+					data: [user, foreign]
 				}, status: :ok
 			end
 
 			private
 				def user_params
 					params.permit(:nombre,:lastName,:gender,:email,:role_id,:username,:password)
-				end
-			
-		end
+				end	
 
+		end
 	end
 end
