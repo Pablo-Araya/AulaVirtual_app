@@ -11,12 +11,28 @@ Realiza un 'Fork' para descargar la API a tus repositorios \
 Ejecuta el siguiente comando para instalar las dependencias anexas al proyecto \
 `bundle install`
 
+* Se modificó CORS para poder aceptar consultas desde angular \
+Se debe instalar la gema rack-cors y modificar el archivo /config/initializers/cors.rb
+sabiendo que angular corre en el puerto :9000
+<pre>
+Rails.application.config.middleware.insert_before 0, Rack::Cors do
+  allow do
+    origins 'localhost:9000'
+
+    resource '\*',
+      headers: :any,
+      methods: [:get, :post, :put, :patch, :delete, :options, :head]
+  end
+end
+</pre>
+
 * System dependencies\
 --> *Faker* \
 --> *MySQL2* \
 --> *yaml_db* \
 --> *validates*\
 --> *bcrypt*\
+--> *rack-cors*\
 
 
 * Database creation \
