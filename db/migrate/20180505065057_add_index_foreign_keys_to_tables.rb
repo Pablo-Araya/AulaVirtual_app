@@ -10,7 +10,8 @@ class AddIndexForeignKeysToTables < ActiveRecord::Migration[5.0]
   	add_foreign_key :pivot_alumnos_catedras, :students
   	add_foreign_key :pivot_alumnos_catedras, :catedras
   	add_foreign_key :catedras, :categories
-  	add_foreign_key :catedras, :teachers
+    add_foreign_key :catedras, :teachers
+  	add_foreign_key :user_tokens, :users
 
   end
 end

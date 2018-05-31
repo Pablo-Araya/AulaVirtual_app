@@ -5,6 +5,7 @@ class User < ApplicationRecord
 	# Model associations
 	has_many :teacher, foreign_key: :user_id
 	has_many :student, foreign_key: :user_id
+	has_one :user_token, foreign_key: :user_id
 	belongs_to :role
 	
 	# Validations

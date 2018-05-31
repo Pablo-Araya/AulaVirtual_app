@@ -5,9 +5,13 @@ Rails.application.routes.draw do
 			post "login", to: "users#login"
 			
 			resources :users do
-				get "cursos", to: "cursos#index"
-				post "cursos", to: "cursos#create"
-				delete "cursos/:id", to: "cursos#destroy"
+				post "auth", to: "user_tokens#createToken"
+				get "auth", to: "user_tokens#getToken"
+				delete "auth", to: "user_tokens#destroyToken"
+				get "misCursos", to: "cursos#index"
+				post "misCursos", to: "cursos#create"
+				delete "misCursos/:id", to: "cursos#destroy"
+				get "misCatedras", to: "cursos#indexTeacher"
 			end
 
 			resources :categories do

@@ -5,6 +5,7 @@ class CreateCatedras < ActiveRecord::Migration[5.0]
       t.belongs_to :teacher, null: false
       t.string :title, null: false
       t.text :description
+      t.string :img, null: false
       t.timestamps
     end
   end

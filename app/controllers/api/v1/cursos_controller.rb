@@ -28,6 +28,32 @@ module Api
 				end
 			end
 
+			def indexTeacher
+				user = User.find(params[:user_id])
+				if user.role_id == 2
+					catedras = Catedra.where(:teacher_id => params[:user_id]).all
+					if catedras.any?
+						render json: {
+							status:'SUCCESS', 
+							message: 'Todas las Cátedras creadas por el Profesor ' + params[:user_id], 
+							data: catedras
+						}, status: :ok
+					else
+						render json: {
+							status: 'ERROR',
+							message: 'No existen Cátedras creadas por el Profesor ' + params[:user_id],
+							data: catedras
+						}, status: :unprocessable_entity
+					end
+				else
+					render json: {
+						status: 'ERROR',
+						message: 'Error: el Usuario no es Profesor',
+						data: user
+					}, status: :unprocessable_entity
+				end
+			end
+
 			def create
 				user = User.find(params[:user_id])
 				if user.role_id == 3

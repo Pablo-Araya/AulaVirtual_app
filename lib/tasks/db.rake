@@ -9,16 +9,16 @@ namespace :db do
 		User.destroy_all
 		puts "Se han eliminado todos los usuarios"	
 
-		#Create 2 usersAdmin
-		2.times do
+		#Create 1 usersAdmin
+		1.times do
 			user = User.new
 				user.nombre   = Faker::Name.first_name
 				user.lastName = Faker::Name.last_name 
 				user.gender   = Faker::Boolean.boolean(0.5)				
 				user.email    = Faker::Internet.safe_email(user.nombre)
 				user.role_id  = 1
-				user.username = Faker::Internet.user_name(user.nombre)
-				user.password = Faker::Internet.password(8, 10, true, true)
+				user.username = 'admin'
+				user.password = 1234
 			user.save!
 		end
 

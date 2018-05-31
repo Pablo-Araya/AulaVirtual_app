@@ -14,15 +14,13 @@ module Api
 					else
 						render json: {
 							status:'ERROR', 
-							message: 'Clave incorrecta', 
-							data: ""
+							message: 'Datos incorrectos'
 						}, status: :unprocessable_entity
 					end
 				else
 					render json: {
 						status:'ERROR', 
-						message: 'Usuario no existe', 
-						data: ""
+						message: 'Datos incorrectos'
 					}, status: :unprocessable_entity
 				end
 			end
