@@ -21,7 +21,6 @@ module Api
 
 			def create
 				catedra = Catedra.new(catedra_params)
-
 				if catedra.save
 					render json: {
 						status: 'SUCCESS', 

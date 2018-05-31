@@ -1,7 +1,30 @@
 module Api
 	module V1
 		class UsersController < ApplicationController
-						
+			
+			def login
+				userLog = User.where(username: params[:username]).first
+				if userLog
+					if userLog.password == params[:password]
+						render json: {
+							status:'SUCCESS', 
+							message: 'Usuario autenticado', 
+							data: userLog
+						}, status: :ok
+					else
+						render json: {
+							status:'ERROR', 
+							message: 'Datos incorrectos'
+						}, status: :unprocessable_entity
+					end
+				else
+					render json: {
+						status:'ERROR', 
+						message: 'Datos incorrectos'
+					}, status: :unprocessable_entity
+				end
+			end
+
 			def index
 				users = User.all
 				render json: {
