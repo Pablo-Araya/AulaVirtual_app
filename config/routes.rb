@@ -15,8 +15,9 @@ Rails.application.routes.draw do
 			end
 
 			resources :categories do
-
+				
 				resources :catedras do
+				get "teacherName", to: "catedras#getTeacherName"
 
 					resources :catedra_surveys
 					get "avg", to: "catedra_surveys#avg"

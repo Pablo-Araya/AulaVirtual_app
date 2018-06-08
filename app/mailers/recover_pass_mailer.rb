@@ -1,0 +1,2 @@
+class RecoverPassMailer < ApplicationMailer
+end

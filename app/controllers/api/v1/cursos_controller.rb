@@ -4,19 +4,22 @@ module Api
 
 			def index
 				user = User.find(params[:user_id])
+				student = Student.where(:user_id => params[:user_id]).first
 				if user.role_id == 3
-					cursos = PivotAlumnoCatedra.where(:student_id => params[:user_id]).all
+					cursos = PivotAlumnoCatedra.where(:student_id => student.id).all
+					foo = [:student => student.id] 
+					foo += cursos
 					if cursos.any?
 						render json: {
 							status:'SUCCESS', 
-							message: 'Todas las Cátedras inscritas por el Alumno ' + params[:user_id], 
-							data: cursos
+							message: 'Todas las Cátedras inscritas por el Alumno ' + student.id.to_s, 
+							data: foo
 						}, status: :ok
 					else
 						render json: {
 							status: 'ERROR',
-							message: 'No existen Cátedras inscritas por el Alumno ' + params[:user_id],
-							data: cursos
+							message: 'No existen Cátedras inscritas por el Alumno ' + student.id.to_s,
+							data: foo
 						}, status: :unprocessable_entity
 					end
 				else
@@ -30,19 +33,22 @@ module Api
 
 			def indexTeacher
 				user = User.find(params[:user_id])
+				teacher = Teacher.where(:user_id => params[:user_id]).first
 				if user.role_id == 2
-					catedras = Catedra.where(:teacher_id => params[:user_id]).all
+					catedras = Catedra.where(:teacher_id => teacher.id).all
+					foo = [:teacher => teacher.id] 
+					foo += catedras
 					if catedras.any?
 						render json: {
 							status:'SUCCESS', 
-							message: 'Todas las Cátedras creadas por el Profesor ' + params[:user_id], 
-							data: catedras
+							message: 'Todas las Cátedras creadas por el Profesor ' + teacher.id.to_s, 
+							data: foo
 						}, status: :ok
 					else
 						render json: {
 							status: 'ERROR',
-							message: 'No existen Cátedras creadas por el Profesor ' + params[:user_id],
-							data: catedras
+							message: 'No existen Cátedras creadas por el Profesor ' + teacher.id.to_s,
+							data: foo
 						}, status: :unprocessable_entity
 					end
 				else
@@ -56,6 +62,7 @@ module Api
 
 			def create
 				user = User.find(params[:user_id])
+				student = Student.where(:user_id => params[:student_id]).first
 				if user.role_id == 3
 					e = PivotAlumnoCatedra.where(:student_id => params[:student_id]).where(:catedra_id => params[:catedra_id]).first
 					if e.nil?

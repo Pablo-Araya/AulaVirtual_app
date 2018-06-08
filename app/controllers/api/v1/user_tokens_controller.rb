@@ -34,6 +34,7 @@ module Api
 				oldTokens = UserToken.where("updated_at < ?", 30.minutes.ago).all
 				oldTokens.destroy_all
 				if !token.nil?
+					token.update_attributes(token_params)
 					render json: {
 						status: 'SUCCESS', 
 						message: 'Se encontró un registro actualizado hace menos de 30 minutos', 
@@ -49,7 +50,7 @@ module Api
 			end
 
 			def destroyToken
-				token = UserToken.where(:user_id => params[:user_id])
+				token = UserToken.where(:user_id => params[:user_id]).first
 				if token.destroy
 					render json: {
 						status: 'SUCCESS', 

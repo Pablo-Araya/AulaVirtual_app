@@ -65,7 +65,7 @@ module Api
 
 			private
 				def category_params
-					params.permit(:title, :description)
+					params.permit(:title, :icon, :description)
 				end	
 
 		end

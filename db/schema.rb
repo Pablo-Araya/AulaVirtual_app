@@ -13,11 +13,11 @@
 ActiveRecord::Schema.define(version: 20180505065057) do
 
   create_table "catedra_surveys", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
-    t.integer  "catedra_id", null: false
-    t.integer  "student_id", null: false
-    t.integer  "key",        null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "catedra_id",                         null: false
+    t.integer  "student_id",                         null: false
+    t.decimal  "key",        precision: 2, scale: 1, null: false
+    t.datetime "created_at",                         null: false
+    t.datetime "updated_at",                         null: false
     t.index ["catedra_id"], name: "index_catedra_surveys_on_catedra_id", using: :btree
     t.index ["student_id"], name: "index_catedra_surveys_on_student_id", using: :btree
   end

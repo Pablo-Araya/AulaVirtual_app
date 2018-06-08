@@ -3,9 +3,9 @@ class User < ApplicationRecord
 	# has_secure_password
 
 	# Model associations
-	has_many :teacher, foreign_key: :user_id
-	has_many :student, foreign_key: :user_id
-	has_one :user_token, foreign_key: :user_id
+	has_many :teacher, foreign_key: :user_id, dependent: :destroy
+	has_many :student, foreign_key: :user_id, dependent: :destroy
+	has_one :user_token, foreign_key: :user_id, dependent: :destroy
 	belongs_to :role
 	
 	# Validations

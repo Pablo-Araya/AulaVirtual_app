@@ -1,7 +1,7 @@
 class Catedra < ApplicationRecord
 	# Model associations
-	has_many :clase, foreign_key: :catedra_id
-	has_many :catedra_survey, foreign_key: :catedra_id
+	has_many :clase, foreign_key: :catedra_id, dependent: :destroy
+	has_many :catedra_survey, foreign_key: :catedra_id, dependent: :destroy
 	has_many :student, :through => :pivot_alumno_catedra
 	belongs_to :teacher
 	belongs_to :category

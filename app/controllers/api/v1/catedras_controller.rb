@@ -46,7 +46,7 @@ module Api
 			end
 
 			def update
-				catedra = Catedra.find(params[:id])
+				catedra = Catedra.find(params[:catedra_id])
 				if catedra.update_attributes(catedra_params)
 					render json: {
 						status: 'SUCCESS', 
@@ -63,7 +63,7 @@ module Api
 			end
 
 			def destroy
-				catedra = Catedra.find(params[:id])
+				catedra = Catedra.find(params[:catedra_id])
     			if catedra.destroy
 	    			render json: {
 						status: 'SUCCESS', 
@@ -79,9 +79,28 @@ module Api
 				end
 			end
 
+			def getTeacherName
+				catedra = Catedra.find(params[:catedra_id])
+				teacher = Teacher.where(:id => catedra.teacher_id).first
+				user = User.where(:id => teacher.user_id).first
+				if user
+					render json: {
+						status: 'SUCCESS', 
+						message:'el nombre del profesor de la catedra: ' + catedra.id.to_s + ' es: ' + user.nombre + ' ' + user.lastName, 
+						data: user.nombre.capitalize + ' ' + user.lastName.capitalize 
+					}, status: :ok
+				else
+	    			render json: {
+						status: 'ERROR', 
+						message:'No se pudo encontrar el profesor de la cátedra', 
+						data: user.errors
+					}, status: :unprocessable_entity
+				end
+			end 
+
 			private
 				def catedra_params
-					params.permit(:category_id, :teacher_id, :title, :description)
+					params.permit(:category_id, :teacher_id, :title, :description, :img)
 				end	
 
 

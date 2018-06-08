@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41A7DAB6-07C3-213D-3F0E-E2AD39D783D9" name="user_tokens">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-05-31 04:50:30 UTC</createdTime>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_token" id="E26F9C3B-1014-7978-1C84-7E122CEABCF2">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-05-31 04:50:40 UTC</createdTime>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_user" id="F3D15089-0E4E-3A5A-BD60-4AA369C71F96">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-05-31 04:51:17 UTC</createdTime>
+<generatorID>97569218-7FA1-3ED5-1908-42FD86F847D6</generatorID>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<referedAttribute>F29E4126-EAC3-2FC2-3ACB-C84C4932BE10</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2FC47662-2839-D18B-AD5B-CBD03366FAB0" name="user_tokens PK">
+<createdBy>Pablo</createdBy>
+<createdTime>2018-05-31 04:50:47 UTC</createdTime>
+<ownerDesignName>MER-AulaVirtual</ownerDesignName>
+<engineerTo>
+<item key="F94E96A1-62D7-4FDB-1525-E97999B2D84C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E26F9C3B-1014-7978-1C84-7E122CEABCF2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

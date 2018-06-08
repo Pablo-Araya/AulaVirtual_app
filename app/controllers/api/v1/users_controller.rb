@@ -36,7 +36,6 @@ module Api
 
 			def create
 				user = User.new(user_params)
-
 				if user.save
 					role = user.role_id
 					if role == 2
@@ -96,21 +95,30 @@ module Api
 			def destroy
 				user = User.find(params[:id])
 				role = user.role_id
+
 				if role == 2
-					foreign = Teacher.where(:user_id => user.id).first
-					foreign.destroy
+					teacher = Teacher.where(:user_id => user.id).first
+					teacher.destroy
 				else
-					foreign = Student.where(:user_id => user.id).first
-					if !foreign.nil?
-						foreign.destroy
+					student = Student.where(:user_id => user.id).first
+					if !student.nil?
+						student.destroy
 					end
 				end
-    			user.destroy
-    			render json: {
-					status: 'SUCCESS', 
-					message:'Se ha eliminado Usuario', 
-					data: [user, foreign]
-				}, status: :ok
+    			
+    			if user.destroy
+    				render json: {
+						status: 'SUCCESS', 
+						message:'Se ha eliminado Usuario', 
+						data: user
+					}, status: :ok
+				else
+					render json: {
+						status: 'ERROR', 
+						message:'No se pudo eliminar al Usuario', 
+						data: user.errors
+					}, status: :unprocessable_entity
+				end
 			end
 
 			private
