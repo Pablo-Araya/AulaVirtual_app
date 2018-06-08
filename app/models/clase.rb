@@ -1,6 +1,6 @@
 class Clase < ApplicationRecord
 	# Model associations
-	has_many :notification, foreign_key: :clase_id
+	has_many :notification, foreign_key: :clase_id, dependent: :destroy
 	belongs_to :catedra
 
 	# Validations

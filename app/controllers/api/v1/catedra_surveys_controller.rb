@@ -8,13 +8,13 @@ module Api
 					render json: {
 						status:'SUCCESS', 
 						message: 'Todas las Calificaciones de la Cátedra ' + params[:catedra_id], 
-						data: surveys
+						data: surveys.count
 					}, status: :ok
 				else
 					render json: {
 						status: 'ERROR',
 						message: 'No existen Calificaciones en la Cátedra ' + params[:catedra_id],
-						data: surveys
+						data: surveys.count
 					}, status: :unprocessable_entity
 				end
 			end
@@ -100,7 +100,7 @@ module Api
 					render json: {
 						status: 'ERROR',
 						message: 'No existen Calificaciones en la Cátedra ' + params[:catedra_id],
-						data: avg
+						data: 0
 					}, status: :unprocessable_entity
 				end
 			end
