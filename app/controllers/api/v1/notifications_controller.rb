@@ -82,7 +82,7 @@ module Api
 
 			private
 				def notification_params
-					params.permit(:clase_id, :title, :description)
+					params.permit(:clase_id, :title, :description, :adjunto)
 				end	
 
 		end
